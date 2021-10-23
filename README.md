@@ -22,6 +22,20 @@ For example, the above deck shuffling and the below shuffling both map to the sa
 
 That number is:  `124439904724342638525433701090112646041`
 
+# To generate a 128-bit number from a deck shuffling:
+```
+>>> from factoradic import deck_to_number
+>>> 
+>>> deck = ['2c', '3c', '4c', '5c', '6c', '7c', '8c', '9c', '10c', 'Jc', 'Qc', 'Kc', 'Ac',
+...  '2d', '3d', '4d', '5d', '6d', '8h', '4h', 'Qs', '9h', 'Js', '8d', 'Qd', '4s',
+...  'Qh', '7s', '6h', '2h', '2s', 'Kh', '10s', '5h', 'Jh', '3h', 'Ah', '6s', '3s',
+...  '9s', '10d', '10h', 'Ks', '7h', 'Ad', 'As', '9d', '7d', 'Jd', 'Kd', '8s', '5s']
+>>> 
+>>> deck_to_number(deck=deck)
+124439904724342638525433701090112646041
+>>>
+```
+
 # To run tests:
 ```
 $ python -m unittest -vv
