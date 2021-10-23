@@ -10,4 +10,7 @@ class TestFactoradic(unittest.TestCase):
         number = random.randrange(2**128)
         deck = number_to_deck(number=number)
 
+        print(f"\n\nnumber: {number}\n")
+        print(f"shuffled deck: {deck}\n")
+
         self.assertEqual(number, deck_to_number(deck=deck))
