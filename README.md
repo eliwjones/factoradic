@@ -25,12 +25,17 @@ That number is:  `124439904724342638525433701090112646041`
 # To run tests:
 ```
 $ python -m unittest -vv
-test_factoradic (test_factoradic.TestFactoradic) ... number: 125482519077094659334963470717308051642
-shuffled deck: ['2c', '3c', '4c', '5c', '6c', '7c', '8c', '9c', '10c', 'Jc', 'Qc', 'Kc', 'Ac', '2d', '3d', '4d', '5d', '6d', '8h', '9h', 'Js', 'Ad', 'Kh', '4h', '7s', '3h', '2s', 'Qh', 'Qs', '10d', '8d', '5h', '2h', '6s', '9d', '10s', '4s', 'Qd', 'Ks', '3s', '7d', 'Jh', '8s', '5s', 'Kd', '9s', '6h', 'Jd', '7h', 'Ah', '10h', 'As']
+test_factoradic (test_factoradic.TestFactoradic) ... 
+
+number: 86147408288686326839861397527590576950
+
+shuffled deck: ['2c', '3c', '4c', '5c', '6c', '7c', '8c', '9c', '10c', 'Jc', 'Qc', 'Kc', 'Ac', '2d', '3d', '4d', '5d', '6d', '3h', 'Qs', '7h', 'Ah', '3s', 'Js', 'Kd', 'Ks', '10d', '4h', '9s', '10s', '8h', '8s', 'Jh', '5h', '4s', 'Qd', 'As', 'Qh', 'Ad', '7d', '9h', 'Kh', '7s', '5s', '6s', '2s', '2h', '9d', 'Jd', '8d', '6h', '10h']
+
 ok
 
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
 
 OK
+
 ```
