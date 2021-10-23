@@ -29,7 +29,10 @@ test_factoradic (test_factoradic.TestFactoradic) ...
 
 number: 86147408288686326839861397527590576950
 
-shuffled deck: ['2c', '3c', '4c', '5c', '6c', '7c', '8c', '9c', '10c', 'Jc', 'Qc', 'Kc', 'Ac', '2d', '3d', '4d', '5d', '6d', '3h', 'Qs', '7h', 'Ah', '3s', 'Js', 'Kd', 'Ks', '10d', '4h', '9s', '10s', '8h', '8s', 'Jh', '5h', '4s', 'Qd', 'As', 'Qh', 'Ad', '7d', '9h', 'Kh', '7s', '5s', '6s', '2s', '2h', '9d', 'Jd', '8d', '6h', '10h']
+shuffled deck: ['2c', '3c', '4c', '5c', '6c', '7c', '8c', '9c', '10c', 'Jc', 'Qc', 'Kc', 'Ac',
+                '2d', '3d', '4d', '5d', '6d', '3h', 'Qs', '7h', 'Ah', '3s', 'Js', 'Kd', 'Ks',
+                '10d', '4h', '9s', '10s', '8h', '8s', 'Jh', '5h', '4s', 'Qd', 'As', 'Qh', 'Ad',
+                '7d', '9h', 'Kh', '7s', '5s', '6s', '2s', '2h', '9d', 'Jd', '8d', '6h', '10h']
 
 ok
 
